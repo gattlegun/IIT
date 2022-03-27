@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>oliver mode</title>
+		<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="./css/style-content.css">
+<link rel="stylesheet" type="text/css" href="./css/style-nav.css">
+
+<link rel="shortcut icon" href="./favicon.ico">
+	</head>
+
+	<body>
+		<div class="mainContainer">
+			<div class="column sidebar">
+	<div class="header">
+		<div id="image-container" height="200" width="200">
+    	<img class="slides" src="img/selfie0.jpg">
+    	<img class="slides" src="img/selfie1.jpg">
+    	<img class="slides" src="img/selfie2.jpg">
+    	<img class="slides" src="img/selfie3.jpg">
+
+       <script>
+       // javascript for slideshow
+       var slidelib = 0;
+       slideshow();
+
+       function slideshow() {
+       var i;
+       var x = document.getElementsByClassName("slides");
+           for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+       }
+       slidelib++;
+       if (slidelib > x.length) {slidelib = 1}
+           x[slidelib-1].style.display = "block";
+       setTimeout(slideshow, 3000);
+                    }
+		</script> 
+    	</div>
+
+		<h1>i'm shivam!</h1>
+		<h2>～ internet dweller ~</h2>
+	</div>
+	
+	<div class="navigation">
+		<nav>
+			<a href="index.html">page 1: all about me!</a>
+			<a href="interests.html">page 2: interests in IT</a>
+			<a href="ideals.html">page 3: ideal job</a>
+			<a href="personality.html">page 4: personality profile</a>
+			<a href="project.html">page 5: my project idea</a>
+		</nav>
+	</div>
+</div>
+<div class="column sidebar-border">
+	<!-- banner -->
+</div>
+			<div class="column contentContainer">
+				<!-- content is placed here -->
+				<div class="contentHeader">
+					<img src="./img/hrdIndex.png">
+					<h2>Interests in IT!</h2>
+				</div>
+
+				<div class="content">
+					<table class="questions">
+						<tbody><tr><th><span style="background-color: greenyellow">my interest in IT</span></th></tr>
+						<tr>
+							<td>
+								<b>what's my interest in IT</b>
+								<p>I’m super interested in computer vision technologies like photogrammetry, volumetric capture, and object recognition and other fields like sustainable computing and low end/retro systems. I think maintaining the relationship between humans and machines are important and to keep it as the use of a tool and not the extension of the human identity, I feel very passionately about WEB1 and the unadulterated passion old forum posts and blogs had, the initial dream of Tim Berners-Lee depicted a fluid semantic web where information flows from one source to another in a completely decentralized manner. The direction in which we’re reaching this dream is a bit sad to me and I’d like to help shape it back to a bright and optimistic future. I got interested in IT from a very young age, we didn’t get internet in our household until midway through my year 10 (2019), I lived very far away from my friends so I killed most of my time by watching TV and messing with a laptop. There’s not much you can do with a laptop without internet so I tried to find new things everyday, that just resulted in me reading the offline manuals for windows and built in software though - and through that I just became somewhat knowledgeable on computer systems and got designated the “computer guy!”</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>outline your IT experience</b>
+								<p>
+									I have a pretty limited scope when it comes to how big IT can be but I still like to think that I have a lot of variety in my experience. The most thorough experience I have is my Applied Computing and Software Development classes for my high school VCE, I learned a lot about Visual Basic, .NET, programming fundamentals, and innovative technologies in that class - it was really fun! In my own home though, I like to experiment a lot with the things I have laying around, like old game consoles or anything slow that I think get a lil’ bit more out of. I have some experience in bootleg networking as I host my own web server at home! It runs some classic apps like nextcloud, jellyfin, and torrent software that definitely only downloads legal torrents of film in the public domain... totally. I’m not too confident in networking as it’s an entire beast but I do have dd-wrt on my router (custom firmware) and I managed to get my home server point to a public domain. I also run arch linux at home and that just brings it’s own maintenance headaches alongside with it but I think it’s a very fun project and it let’s me learn lots about how computers work so I don’t mind some of the hassle :p'
+								</p>
+								<figure>
+								<img class="centre" src="./img/access-db.png" style="height: 350px;">
+								<br>
+								<figcaption class="subtitle" style="text-align: center;">An access database I made in high school</figcaption></figure>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>why did you come to RMIT?</b>
+								<p>I wanted to go to RMIT because of a couple different factors. Most IT/CS degrees look really similar to each other but RMIT was the only one that stood out from the others, the third year of the degree offers industry experience and that seems like a really valuable opportunity! The campus and community here were really alluring and being from the suburbs, I wanted to experience the hustle and bustle of the city, there’s just so much here! I’m finding niche communities that I could never see or expect from my local area.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>What do you expect to during your studies?</b>
+								<p>
+									IT is such a broad field and there’s just so many smaller sections inside of it so I expect to learn about just how many different fields are related to IT. I want to get really experienced with computing and problem solving and see how others from the past have tackled problems. I want to see what the industry is currently trying to achieve and how it’s making the steps to solve those problems
+								</p>
+							</td>
+						</tr>
+						</tbody>
+					</table>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

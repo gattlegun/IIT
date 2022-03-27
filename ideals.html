@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<title>oliver mode</title>
+		<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="./css/style-content.css">
+<link rel="stylesheet" type="text/css" href="./css/style-nav.css">
+
+<link rel="shortcut icon" href="./favicon.ico">
+	</head>
+
+	<body>
+		<div class="mainContainer">
+			<div class="column sidebar">
+	<div class="header">
+		<div id="image-container" height="200" width="200">
+    	<img class="slides" src="img/selfie0.jpg">
+    	<img class="slides" src="img/selfie1.jpg">
+    	<img class="slides" src="img/selfie2.jpg">
+    	<img class="slides" src="img/selfie3.jpg">
+
+       <script>
+       // javascript for slideshow
+       var slidelib = 0;
+       slideshow();
+
+       function slideshow() {
+       var i;
+       var x = document.getElementsByClassName("slides");
+           for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+       }
+       slidelib++;
+       if (slidelib > x.length) {slidelib = 1}
+           x[slidelib-1].style.display = "block";
+       setTimeout(slideshow, 3000);
+                    }
+		</script> 
+    	</div>
+
+		<h1>i'm shivam!</h1>
+		<h2>～ internet dweller ~</h2>
+	</div>
+	
+	<div class="navigation">
+		<nav>
+			<a href="index.html">page 1: all about me!</a>
+			<a href="interests.html">page 2: interests in IT</a>
+            <a href="ideals.html">page 3: ideal job</a>
+			<a href="personality.html">page 4: personality profile</a>
+			<a href="project.html">page 5: my project idea</a>
+		</nav>
+	</div>
+</div>
+<div class="column sidebar-border">
+	<!-- banner -->
+</div>
+			<div class="column contentContainer">
+				<!-- content is placed here -->
+				<div class="contentHeader">
+					<img src="./img/hrdIndex.png">
+					<h2>Ideal Job</h2>
+				</div>
+
+				<div class="content">
+					<table class="questions">
+						<tbody><tr><th><span style="background-color: rgb(66, 222, 250);">my ideal job</span></th></tr>
+						<tr>
+							<td>
+								<a href="https://web.archive.org/web/20220327064014/https://www.seek.com.au/job/56322239">ideal job (internet archive)</a> <a href="./img/job.png">(image)</a>
+								<p></p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Describe the position and why it is appealing to you.</b>
+								<p>An infrastructure engineer is responsible for the monitoring, maintaining, troubleshooting, and upgrading the infrastructure of a company whether they employ cloud, physical, or a hybrid approach. At Grill’d specifically, the engineer is also responsible maintaining services on the infrastructure such as they security concerns, storage and backups, and voice communications systems.
+								</p>
+								<p>I'd love to be an infrastructure engineer as the role is really varied and requires a lot of thought behind your actions. You aren't just responsible for yourself but you are needed by the company to maintain and fix infrastructure, on top of this, you are treated as elevated support and used to train junior IT members in your cohort. There will always something to do and the job allows you to explore different styles of architecture, fix mistakes, and create something more streamlined and optimized. Always working to improvement is a process I really enjoy and so I think that being an infrastructure engineer is a well suited position for me (+ the money seems nice too...)</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>skills and qualifications</b>
+								<p>
+									Being an Infrastructure Engineer at Grill’d requires a wide variety of skills. One must be skilled at Windows Server deployments in Active Directory and Group Policy Management, CISCO Networking (DNS and DHCP) and handling the network stack (Meraki and SDWAN), Virtual Desktop servers using Citrix, and script experience using Powershell. 
+								</p>
+								<p>
+									These technical terms are just the software stack Grill'd uses internally but what it means is that to be qualified for a position at Grill'd, you must be adept with how an enterprise deploys Windows Server typically, be comfortable in maintaining their virtual desktop software and be able to understand how they are routing this connection to everyone.
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>what skills do you currently hold?</b>
+
+								<p>In terms of just IT and not generally necessary skills like Problem Solving and Teamwork, I have experience in Unix scripting and Package Management through my hobbyist Arch Linux install, experience in networking and hosting through self hosted services such as Nextcloud and Jellyfin, further experience in using nginx and traefik to set up a public facing website with proper DHCP management and a reverse proxy to route domains into docker containers. Basic abilities in Group Policy management through learning experience at my schools IT Department, and general understanding of networking hardware and systems by tinkering with my router through dd-wrt custom firmware.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<b>how will you build the skills needed for the position?</b>
+								<p>To be an infrastructure engineer, one requires the ability to manage network devices, implement policy management schemes, and understanding the needs of a company. I believe the skills I have already serve as a great fundamental to the skills required but need to be developed further. This role specifically asks for experience in managing CISCO and “Meraki” devices and to be qualified for this position (and other similar positions), I will investigate a wide variety of networking devices and racks to learn the role they serve and what they contribute in the network stack so I can work not just at Grill'd but in a multitude of companies in need of a infrastructure engineer. Another way I plan on gathering experience and knowledge for the position is to contact people on LinkedIn and see if I can shadow them for a day and see what type of work they do and get some advice from them, if that is too far, I plan to ask around for a mentor.</p>
+							</td>
+						</tr>
+						</tbody>
+					</table>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

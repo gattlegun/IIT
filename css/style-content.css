@@ -1,0 +1,144 @@
+/* header styling */
+.contentHeader {
+	background-image: url('../img/contentHeader.png');
+	background-repeat: repeat-x;
+	height: 91;
+	width: inherit;
+	position: fixed;
+}
+.contentHeader img {
+	float: left;
+	padding: 11px;
+}
+.contentHeader h2 {
+	font-family: "HCP Maru Gothic", Arial, Helvetica, sans-serif;
+	margin-top: 17px;
+	font-size: 32px;
+}
+.contentHeader:after {
+	clear: both;
+}
+
+/* content styling */
+
+* {
+	font-family: "HCP Maru Gothic";
+	font-size: 14px;
+	color: black;
+}
+
+.content p {
+	font-family: "HCP Maru Gothic", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	word-wrap: normal;
+	max-width: 800px;
+}
+
+.content hr {
+	max-width: 800px;
+	margin-left: 0px;
+	border: 1px solid rgb(255, 128, 192);
+}
+
+.content a {
+	color: rgb(255, 128, 192);
+}
+
+.content a:visited {
+	color: rgb(189, 93, 141);
+}
+
+.content h2 {
+	font-family: "HCP Maru Gothic", Arial, Helvetica, sans-serif;
+	font-size: 32px;
+}
+
+.content h3 {
+	font-family: "HCP Maru Gothic", Arial, Helvetica, sans-serif;
+	font-size: 32px;
+}
+
+.content table {
+	width: 100%;
+	border: 5px outset rgb(255, 128, 192);
+	background-color: white;
+}
+
+.content th {
+	background-color: rgb(255, 128, 192);
+	background: rgb(255, 128, 192);
+	padding: 4px;
+}
+
+.content td {
+	border: 1px solid rgb(255, 128, 192);
+	padding: 4px;
+}
+
+.brief {
+	padding: 10px;
+	max-width: 800px;
+	background-color: #006644;
+	margin-top: 14px;
+}
+.brief * {
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+	font-smooth: always;
+}
+.brief p {
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 16px;
+}
+
+.brief h2 {
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+	font-size: 42px;
+	text-align: center;
+	color: white;
+}
+.brief h3 {
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	text-align: center;
+	color: white;
+}
+.brief h4 {
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.brief a {
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+.brief a:visited {
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #F9C;
+}
+
+img.centre {
+	display: block;
+	margin: 0 auto;
+}
+
+figcaption.subtitle {
+	color: gray
+}
+
+.content li {
+	padding: 2px;
+}
+
+.questions {
+	word-wrap: normal;
+	overflow-wrap: normal;
+	max-width: 800px;
+}
